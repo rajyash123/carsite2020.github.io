@@ -14,14 +14,17 @@
 
 body{
     background-color: black;
-    color: #fff;
-    overflow-x: hidden;
+    color: #fff;    
 }
 
 p{
     color: #666;
 }
 
+.site-main{
+    width: 100vw;
+
+}
 
 .header-area .main-menu .navbar-brand{
     padding: 0 5rem;
@@ -1119,7 +1122,7 @@ p{
     }
 
     .section-3{
-        height: 70vh;
+        height: auto;
     }
     
     .section-3 .custom-container .left{

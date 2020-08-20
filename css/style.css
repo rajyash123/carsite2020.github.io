@@ -22,11 +22,11 @@ p{
 }
 
 .site-main{
-    width: 100vw;
+    width: 100%;
 
 }
 
-.header-area .main-menu .navbar-brand{
+/* .header-area .main-menu .navbar-brand{
     padding: 0 5rem;
 }
 
@@ -40,9 +40,9 @@ p{
     font: normal 500 15px/2px var(--roboto);
     padding: 1.7rem;
     color: var(--title-color);
-}
+} */
 
-.header-area .main-menu .navbar-nav .active a{
+/* .header-area .main-menu .navbar-nav .active a{
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -52,7 +52,7 @@ p{
 .header-area .main-menu .navbar-nav a:hover{
     color: red;
     transition: 1s;
-}
+} */
 
 /* button creation */
 .button-card{

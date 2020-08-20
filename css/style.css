@@ -1087,6 +1087,10 @@ p{
         border-radius: 5px;
     }
 
+    .card-section{
+        width: 100%;
+    }
+
     .card-section .row-card{
         display: grid;
     }
@@ -1117,6 +1121,7 @@ p{
 
     .sale-cars-res{
         display: block;
+        width: 100%;
     }
     .sale-cars{
         display: none;
@@ -1130,6 +1135,7 @@ p{
     }
 
     .section-3{
+        width: 100%;
         height: auto;
     }
     
@@ -1148,10 +1154,12 @@ p{
 
     .testimonials{
         display: none;
+        width: 100%;
         
     }
     
     .testimonials-res{
+        width: 100%;
         display: block;
         background-color: white;
         color: #000;
@@ -1194,6 +1202,10 @@ p{
         display: none;
     }
 
+    .cars-body{
+        width: 100%;
+    }
+
     .cars-body .custom-container .row-carbody{
         padding-left: 2.3rem;
     }
@@ -1206,6 +1218,7 @@ p{
     /* our team section */
 
     .our-team{
+        width: 100%;
         display: none;
     }
 

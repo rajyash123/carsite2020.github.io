@@ -915,7 +915,7 @@ p{
 /* main footer starts here */
 
 .main-footer{
-    height: 50vh;
+    height: 60vh;
     background-color: #404040;
 }
 
@@ -930,8 +930,10 @@ p{
 }
 
 .main-footer .footer-container .about-us{
-    padding: 1rem;
-    margin: 1rem 4rem;
+    padding: 2rem 2rem;
+    margin: 0.2rem 4rem;
+    background-color: black;
+    border-radius: 5px;
 }
 
 .main-footer .footer-container .about-us  i{
@@ -949,8 +951,10 @@ p{
 }
 
 .main-footer .footer-container .contact-us{
-    padding: 1rem;
-    margin: 1rem 4rem;
+    padding: 2rem 3rem;
+    margin: 0.2rem 4rem;
+    background-color: black;
+    border-radius: 5px;
 }
 
 .main-footer .copy-right{
@@ -1032,6 +1036,10 @@ p{
 /* responsive code */
 
 @media all and (max-width: 500px){
+
+    body{
+        overflow-x: hidden;
+    }
     
     .site-banner {
         background-repeat: no-repeat;
@@ -1148,7 +1156,7 @@ p{
         background-color: white;
         color: #000;
         text-align: center;
-        height: 80vh;
+        height: auto;
         
     }
 
@@ -1168,11 +1176,13 @@ p{
     }
     
     .section-6 .custom-container .left-end .mini-card{
-        width: 170px;
+        width: 120px;
         height: 150px;
-        margin: 1rem;
         margin-bottom: 4rem;
+    }
 
+    .section-6 .custom-container .left-end .mini-card:nth-child(even){
+        display: none;
     }
     
     .section-6 .custom-container .right{
@@ -1182,6 +1192,15 @@ p{
 
     .section-6 .custom-container .right img{
         display: none;
+    }
+
+    .cars-body .custom-container .row-carbody{
+        padding-left: 2.3rem;
+    }
+
+    .cars-body .custom-container .image-cars img{
+        width: 340px;
+        height: 250px;
     }
 
     /* our team section */
@@ -1195,27 +1214,26 @@ p{
     .car-store .store-container{
         max-width: 1400px;
         margin: auto;
-        padding: 1rem 2rem;
+        padding: 1rem 0;
         padding-left: 1rem;
     }
     
     .car-store .store-container .store-row{
         display: grid;
+        
     }  
 
     .car-store .store-container .store-card{
         border-radius: 5px;
         box-shadow: 4px 10px 41px -6px rgba(70,70,70,1);;
         padding: 0.8rem;
-        width: 400px;
-        height: 420px;
-        margin: 1rem;
+        width: 340px;
+        height: 380px;
         margin-bottom: 1rem;
-        margin-left: 1.3rem;
     }
 
     .car-store .store-container .store-card .add-to-cart{
-        padding: 0.7rem 9.2rem;
+        padding: 0.7rem 7.3rem;
         border-radius: 5px;
         transition: 1s;
     }
